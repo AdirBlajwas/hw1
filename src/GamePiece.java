@@ -1,5 +1,5 @@
 public class GamePiece {
-    private Color color;
+    private final Color color;
     private int position;
 
     GamePiece(Color color){
@@ -14,10 +14,6 @@ public class GamePiece {
 
     public Color getColor() {
         return color;
-    }
-
-    public void setColor(Color color) {
-        this.color = color;
     }
 
     public void setPosition(int position) {

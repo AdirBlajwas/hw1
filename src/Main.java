@@ -12,7 +12,7 @@ public class Main {
         String path = args[0];
         scanner = new Scanner(new File(path));
         int numberOfGames = scanner.nextInt();
-
+//        numberOfGames = 7;
         for (int i = 1; i <= numberOfGames; i++) {
             int seed = scanner.nextInt();
             rnd = new Random(seed);
